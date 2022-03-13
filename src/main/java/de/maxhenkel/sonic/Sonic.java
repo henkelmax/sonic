@@ -6,7 +6,7 @@
    This file is licensed under the Apache 2.0 license.
 */
 
-package sonic;
+package de.maxhenkel.sonic;
 
 public class Sonic {
 
