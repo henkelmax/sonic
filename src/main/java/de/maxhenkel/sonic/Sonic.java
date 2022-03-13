@@ -1055,7 +1055,7 @@ public class Sonic {
     }
 
     /* This is a non-stream oriented interface to just change the speed of a sound sample */
-    public int sonicChangeShortSpeed(
+    public static int sonicChangeShortSpeed(
         short samples[],
         int numSamples,
         float speed,
