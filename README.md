@@ -2,6 +2,15 @@
 
 > This is a fork of [waywardgeek/sonic](https://github.com/waywardgeek/sonic).
 
+## Changes to the Original
+
+- Moved sources into a Maven project
+- Removed C code
+- Changed package name from `sonic` to `de.maxhenkel.sonic` to avoid clashes
+- Made `sonicChangeShortSpeed` static
+
+---
+
 Sonic is a simple algorithm for speeding up or slowing down speech.  However,
 it's optimized for speed ups of over 2X, unlike previous algorithms for changing
 speech rate.  The Sonic library is a very simple ANSI C library that is designed
